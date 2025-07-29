@@ -24,6 +24,9 @@
           <li class="nav-item">
             <a class="nav-link" href="mitre">Mitre</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="analyzer">Analyzer</a>
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
