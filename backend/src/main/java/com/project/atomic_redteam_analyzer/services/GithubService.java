@@ -63,8 +63,7 @@ public class GithubService {
                         Technique technique = yaml.load(inputStream);
                         if (technique != null) {
                             techniques.add(technique);
-                            System.out.println(technique.getAttack_technique() + " - " +
-                                    technique.getDisplay_name());
+
                         }
                     } catch (IOException e) {
                         System.err.println(

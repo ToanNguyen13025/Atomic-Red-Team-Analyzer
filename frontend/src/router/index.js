@@ -3,10 +3,12 @@ import HomePage from '../components/HomePage.vue'
 import MitrePage from '../components/MitrePage.vue'
 import TechniquePage from '../components/TechniquePage.vue'
 import AnalyzerPage from '../components/AnalyzerPage.vue'
+import TechniqueDetail from '../components/TechniqueDetail.vue'
 
 const routes = [
   { path: '/', component: HomePage },
   { path: '/technique', component: TechniquePage },
+  { path: '/technique/:id', component: TechniqueDetail },
   { path: '/mitre', component: MitrePage },
   { path: '/analyzer', component: AnalyzerPage },
 ]
